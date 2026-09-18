@@ -1,75 +1,58 @@
-# translation of ka.po to Georgian
-# Georgian translation for Gnome Desktop.
+# Georgian translation for cinnamon-desktop.
+# Copyright (C) 2026 cinnamon-desktop's authors.
 # This file is distributed under the same license as the cinnamon-desktop package.
-# Vladimer Sichinava <vsichi@gnome.org>.
+# Ekaterine Papava <papava.e@gtu.ge>, 2026.
 #
-# Vladimer Sichinava <vsichi@gnome.org>, 2007.
-# Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>, 2008.
 msgid ""
 msgstr ""
-"Project-Id-Version: ka\n"
+"Project-Id-Version: cinnamon-desktop\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-08-27 10:22-0400\n"
-"PO-Revision-Date: 2008-03-28 04:16+0100\n"
-"Last-Translator: Vladimer Sichinava ვლადიმერ სიჭინავა <vsichi@gnome.org>\n"
-"Language-Team: Georgian <http://mail.gnome.org/mailman/listinfo/gnome-ge-"
-"list>\n"
+"POT-Creation-Date: 2026-09-18 17:25+0200\n"
+"PO-Revision-Date: 2026-09-18 18:20+0200\n"
+"Last-Translator: Ekaterine Papava <papava.e@gtu.ge>\n"
+"Language-Team: Georgian <(nothing)>\n"
 "Language: ka\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0\n"
-"X-Generator: KBabel 1.11.4\n"
+"X-Generator: Poedit 3.9\n"
 
 #: libcinnamon-desktop/gnome-languages.c:701
 msgid "Unspecified"
-msgstr ""
+msgstr "მიუთითებელი"
 
-#. Date/Time format defaults - options are stored in org.cinnamon.desktop.interface keys.
-#. * The wall clock is used variously in Cinnamon applets and desklets, as well as
-#. * cinnamon-screensaver's default lock screen.
-#. Default date format (typically matching date portion of WITH_DATE_* defaults.)
-#. * Currently used by cinnamon-screensaver default clock
 #: libcinnamon-desktop/gnome-wall-clock.c:69
 msgid "%A, %B %-e"
-msgstr ""
+msgstr "%A, %B %-e"
 
-#. Default date/time format when show-date, show-seconds, use-24h are set
 #: libcinnamon-desktop/gnome-wall-clock.c:72
 msgid "%A %B %-e, %R:%S"
-msgstr ""
+msgstr "%A %B %-e, %R:%S"
 
-#. Default date/time format when show-date, show-seconds are set
 #: libcinnamon-desktop/gnome-wall-clock.c:75
 msgid "%A %B %-e, %-l:%M:%S %p"
-msgstr ""
+msgstr "%A %B %-e, %-l:%M:%S %p"
 
-#. Default date/time format when show-date, use-24h are set
 #: libcinnamon-desktop/gnome-wall-clock.c:78
 msgid "%A %B %-e, %R"
-msgstr ""
+msgstr "%A %B %-e, %R"
 
-#. Default date/time format when just show-date is set
 #: libcinnamon-desktop/gnome-wall-clock.c:81
 msgid "%A %B %-e, %-l:%M %p"
-msgstr ""
+msgstr "%A %B %-e, %-l:%M %p"
 
-#. Default date/time format when show-seconds, use-24h are set
 #: libcinnamon-desktop/gnome-wall-clock.c:84
 msgid "%R:%S"
-msgstr ""
+msgstr "%R:%S"
 
-#. Default date/time format when just show-seconds is set
 #: libcinnamon-desktop/gnome-wall-clock.c:87
 msgid "%-l:%M:%S %p"
-msgstr ""
+msgstr "%-l:%M:%S %p"
 
-#. Default date/time format when just use-24h is set
 #: libcinnamon-desktop/gnome-wall-clock.c:90
 msgid "%R"
-msgstr ""
+msgstr "%R"
 
-#. Default date/time format with no options are set
 #: libcinnamon-desktop/gnome-wall-clock.c:93
 msgid "%-l:%M %p"
-msgstr ""
+msgstr "%-l:%M %p"
